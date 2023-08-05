@@ -1,7 +1,7 @@
 {
   "name": "@biggerstar/localhost-certs",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "module": "index.js",
@@ -11,10 +11,20 @@
   "author": "biggerstar",
   "license": "MIT",
   "files": [
+    "index.js",
     "keys",
+    "types",
     "src"
   ],
   "devDependencies": {
     "@types/node": "^20.4.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/biggerstar/localhost-certs"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }

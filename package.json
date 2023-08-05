@@ -1,0 +1,20 @@
+{
+  "name": "@biggerstar/localhost-certs",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "module": "index.js",
+  "types": "types/index.d.js",
+  "typings": "types/index.d.js",
+  "scripts": {},
+  "author": "biggerstar",
+  "license": "MIT",
+  "files": [
+    "keys",
+    "src"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.4.8"
+  }
+}
